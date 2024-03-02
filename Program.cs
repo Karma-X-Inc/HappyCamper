@@ -88,7 +88,9 @@ class Program
         string[] filePaths = new string[]
         {
             @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe",
-            @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe"
+            @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe",
+            @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe",
+            @"C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell_ise.exe",
         };
 
         foreach (string originalPath in filePaths)
