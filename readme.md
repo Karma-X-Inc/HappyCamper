@@ -1,4 +1,4 @@
-﻿# HappyCamper
+# HappyCamper
 
 HappyCamper is a tool designed for system administrators to enhance the security of Living off the Land Binaries (LoLBins) within enterprise environments. It allows administrators to append a unique "password" (in the form of a prepend string) to critical system binaries such as PowerShell, thereby requiring explicit knowledge of this modified name for execution. This mechanism aims to add an additional layer of security by potentially thwarting attackers' attempts to utilize these binaries for malicious purposes.
 
@@ -18,19 +18,25 @@ To use HappyCamper, run the program with the desired prepend string and specify 
 
 ```plaintext
 Usage: HappyCamper.exe <prependString> [operation]
-operation: apply - to prepend the string, undo - to remove the prepend string```
-
+    
+    operation: 
+        apply - to prepend the string, 
+        undo - to remove the prepend string
+```
+        
 #### Example
 
 Applying the prepend string "abc123" to PowerShell binaries:
 
 ```shell
-HappyCamper.exe abc123 apply```
+HappyCamper.exe abc123 apply
+```
 
 Undoing the changes:
 
 ```shell
-HappyCamper.exe abc123 undo```
+HappyCamper.exe abc123 undo
+```
 
 ### Supported Binaries
 
