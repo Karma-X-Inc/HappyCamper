@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HappyCamper": {
+      "commandName": "Project",
+      "commandLineArgs": "abc123 undo"
+    }
+  }
+}

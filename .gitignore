@@ -1,0 +1,86 @@
+# Ignore Visual Studio temporary files, build results, and other generated files.
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.vspscc
+*.vssscc
+*.opendb
+license.ps1
+
+# VS Directories
+.vs/
+
+bin/
+obj/
+
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Tye
+.tye/
+
+# Visual Studio for Mac
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Python-specific:
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.pyc
+
+# Exclude virtual environments:
+venv/
+ENV/
+
+# Add any other extensions or directories you want to exclude.
