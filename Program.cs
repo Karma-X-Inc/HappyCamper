@@ -1,5 +1,3 @@
-﻿using System;
-using System.IO;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Runtime.InteropServices;
@@ -73,8 +71,6 @@ class Program
 
     static async Task Main(string[] args)
     {
-        await ConnectAndCloseConnectionAsync("https://www.karma-x.io/hc_usage/");
-
         if (args.Length < 2)
         {
             Console.WriteLine("Usage: Program.exe <prependString> [operation]");
@@ -245,23 +241,6 @@ class Program
 
         // Close the token handle
         CloseHandle(tokenHandle);
-    }
-
-    static async Task ConnectAndCloseConnectionAsync(string uri)
-    {
-        // simply tracking usage - feel free to share feedback!
-        using (var httpClient = new HttpClient())
-        {
-            try
-            {
-                HttpResponseMessage response = await httpClient.GetAsync(uri);
-            }
-            catch (HttpRequestException e)
-            {
-                // Handle any errors that occurred during the request
-                Console.WriteLine($"Request error: {e.Message}");
-            }
-        }
     }
 
     [DllImport("kernel32.dll", SetLastError = true)]
