@@ -23,6 +23,10 @@ Usage: HappyCamper.exe <prependString> [operation]
         apply - to prepend the string, 
         undo - to remove the prepend string
 ```
+
+##### Edit Registry
+
+Take a look at candidate registry locations on your system for potential places you can restore system functionality that may have broken.  It all depends on how YOU want your system to behave and whether you want to be at risk of an attacker enumerating the location.  Play around, don't let anybody tell you shouldn't manage your system how you want to.  Simply putting Windows on a D: drive will break some "sophisticated attacks" with buggy code that hardcodes the D: drive.  Happy Camping!
         
 #### Example
 
@@ -37,6 +41,7 @@ Undoing the changes:
 ```shell
 HappyCamper.exe abc123 undo
 ```
+
 
 ### Supported Binaries
 
