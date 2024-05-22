@@ -1,0 +1,188 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Console\%SystemRoot%_System32_WindowsPowerShell_v1.0_powershell.exe]
+"ColorTable05"=dword:00562401
+"ColorTable06"=dword:00f0edee
+"FaceName"="Lucida Console"
+"FontFamily"=dword:00000036
+"FontWeight"=dword:00000190
+"PopupColors"=dword:000000f3
+"QuickEdit"=dword:00000001
+"ScreenBufferSize"=dword:0bb80078
+"ScreenColors"=dword:00000056
+"WindowSize"=dword:00320078
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Console\%SystemRoot%_SysWOW64_WindowsPowerShell_v1.0_powershell.exe]
+"ColorTable05"=dword:00562401
+"ColorTable06"=dword:00f0edee
+"FaceName"="Lucida Console"
+"FontFamily"=dword:00000036
+"FontWeight"=dword:00000190
+"PopupColors"=dword:000000f3
+"QuickEdit"=dword:00000001
+"ScreenBufferSize"=dword:0bb80078
+"ScreenColors"=dword:00000056
+"WindowSize"=dword:00320078
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location -literalPath '%V'"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Drive\shell\Powershell\command]
+@="powershell.exe -noexit -command Set-Location '%V'"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellCmdletDefinitionXML.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,32,00,30,00,00,00
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,30,00,37,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1\Shell]
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1\Shell\0]
+"MUIVerb"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,\
+  6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,\
+  00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,00,65,00,\
+  72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,5c,00,70,\
+  00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,00,78,00,\
+  65,00,22,00,2c,00,2d,00,31,00,31,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1\Shell\0\Command]
+@="\"C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe\" -p \"%1\""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1\Shell\Open]
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellConsole.1\Shell\Open\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -p \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,30,00,34,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1\Shell\Open]
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellData.1\Shell\Open\Command]
+@="\"C:\\Windows\\System32\\notepad.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,30,00,36,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1\Shell\Open]
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellModule.1\Shell\Open\Command]
+@="\"C:\\Windows\\System32\\notepad.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,30,00,33,00,00,00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\DefaultIcon]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe\",1"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell]
+@="Open"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Open]
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1\Shell\Open\Command]
+@="\"C:\\Windows\\System32\\notepad.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellSessionConfiguration.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,32,00,31,00,00,00
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellXMLData.1]
+"EditFlags"=dword:00020000
+"FriendlyTypeName"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,\
+  00,72,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,\
+  33,00,32,00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,\
+  00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,\
+  5c,00,70,00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,\
+  00,78,00,65,00,22,00,2c,00,2d,00,31,00,30,00,35,00,00,00
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1\Shell]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1\Shell\0]
+"MUIVerb"=hex(2):40,00,22,00,25,00,73,00,79,00,73,00,74,00,65,00,6d,00,72,00,\
+  6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,\
+  00,5c,00,77,00,69,00,6e,00,64,00,6f,00,77,00,73,00,70,00,6f,00,77,00,65,00,\
+  72,00,73,00,68,00,65,00,6c,00,6c,00,5c,00,76,00,31,00,2e,00,30,00,5c,00,70,\
+  00,6f,00,77,00,65,00,72,00,73,00,68,00,65,00,6c,00,6c,00,2e,00,65,00,78,00,\
+  65,00,20,00,22,00,2c,00,2d,00,31,00,30,00,38,00,00,00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1\Shell\0\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" \"-Command\" \"if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '%1'\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1\Shell\Edit]
+"NoSmartScreen"=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ps1\Shell\Edit\Command]
+@="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe\" \"%1\""
+
